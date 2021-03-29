@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Css links-->
+<link rel="stylesheet" href="style.css">
+<!--Box icon link-->
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+    <title>Portafolio</title>
+</head>
+<body class="hidden">
+<div class="centrado" id="onload">
+    <div class="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+   <!--header -->
+   <header class="l-header">
+       <nav class="nav bd-grid">
+           <div class="nav__toggle" id="nav-toggle">
+               <i class='bx bx-menu'></i>
+           </div>
+           <div>
+               <a href="#" class="nav__logo">Bárbara</a>
+           </div>
+           <div class="nav__menu" id="nav-menu" style="display: none">
+               <div class="nav__close" id="nav-close">
+                   <i class='bx bx-x'></i>
+               </div>
+               <ul class="nav__list">
+                   <li class="nav__item"><a href="#home" class="nav__link active">Inicio</a>
+                   <li class="nav__item"><a href="#about" class="nav__link">Sobre mi</a></li>
+                   <li class="nav__item"><a href="#skills" class="nav__link">Conocimientos</a></li>
+                   <li class="nav__item"><a href="#education" class="nav__link">Educación</a></li>
+                   <li class="nav__item"><a href="#works" class="nav__link">Portafolio</a></li>
+                   <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+               </ul>
+           </div>
+
+       </nav>
+   </header>
+
+   <main class="l-mian">
+       <!---Home------>
+       <section class="home" id="home">
+           <div class="home__container bd-grid">
+               <div class="home__data">
+                   <div class="home__img">
+                       <img src="Avatar.jpg" alt="">
+                   </div>
+                   <h1 class="home__title">Bárbara Marcano</h1>
+                   <span class="home__profession">Web Developer</span>
+                   <div class="home__social">
+                       <a href="#" class="home__social-link"><i class="bx bxl-linkedin"></i></a>
+                       <a href="https://github.com/Barbara-Marcano" class="home__social-link"><i class="bx bxl-github"></i></a>
+                       <a href="https://www.facebook.com/barbara.marcano.73" class="home__social-link"><i class="bx bxl-facebook"></i></a>
+                       <a href="https://www.instagram.com/barb.mrcno/" class="home__social-link"><i class="bx bxl-instagram-alt"></i></a>
+                   </div>
+                   <a download="CV" href="CV-Barbara.pdf" class="button home__button">Descargar CV</a>
+               </div>
+           </div>
+       </section>
+<!----Section about------>
+<section class="about section" id="about">
+    <span class="section-subtitle">Información</span>
+    <h2 class="section-title">Sobre mi</h2>
+
+    <div class="about__container bd-grid">
+        <div class="about__data">
+                <img src="sobremi.svg" alt="" class="about__img">
+        </div>
+        <div class="about__data">
+            <p class="about_description">¡Hola! Soy Bárbara Marcano. Tengo 25 años y estudio ingeniería mecánica en la Universidad Central de Venezuela. Me encuentro actualmente cursando el quinto semestre. 
+                He realizado cursos en desarrollo y diseño web en la plataforma de Freecodecamp y Coursera. Además, tengo conocimientos en Python como backend. Deseo crecer profesionalmente y desenvolverme
+            mejor en el mundo de la programación. Siendo cada vez mejor en este amplio mundo, demostrando lo profesional que soy. </p>
+        </div>
+       
+        </div>
+    </div>
+    <!--------SKILLS-------->
+    
+</section>
+ <!--------SKILLS-------->
+<section class="skills section" id="skills">
+    <span class="section-subtitle">Conocimientos</span>
+    <h2 class="section-title">Mi área de experiencia</h2>
+
+<div class="skills__container bd-grid">
+    <div class="skills_content">
+        <div class="skills__data">
+            <span class="skills__name">Html</span>
+            <span class="skills__number">80%</span>
+            <span class="skills__bar skills_html"></span>
+            
+        </div>
+
+        <div class="skills__data">
+            <span class="skills__name">CSS</span>
+            <span class="skills__number">65%</span>
+            <span class="skills__bar skills_css"></span>
+        </div>
+
+        <div class="skills__data">
+            <span class="skills__name">Javascript</span>
+            <span class="skills__number">60%</span>
+            <span class="skills__bar skills_javascript"></span>
+        </div>
+
+        <div class="skills__data">
+            <span class="skills__name">Bootstrap</span>
+            <span class="skills__number">80%</span>
+            <span class="skills__bar skills_bootstrap"></span>
+        </div>
+
+        <div class="skills__data">
+            <span class="skills__name">Jquery</span>
+            <span class="skills__number">60%</span>
+            <span class="skills__bar skills_jquery"></span>
+        </div>
+
+        <div class="skills__data">
+            <span class="skills__name">React</span>
+            <span class="skills__number">50%</span>
+            <span class="skills__bar skills_react"></span>
+        </div>
+
+        <div class="skills__data">
+            <span class="skills__name">Python</span>
+            <span class="skills__number">50%</span>
+            <span class="skills__bar skills_python"></span>
+        </div>
+
+    
+
+        <div class="skills__data">
+            <span class="skills__name">Figma</span>
+            <span class="skills__number">80%</span>
+            <span class="skills__bar skills_figma"></span>
+        </div>
+    </div>
+</div>
+</section>
+<!--Education-->
+<section class="education section" id="education">
+    <span class="section-subtitle">Educación</span>
+    <h2 class="section-title">Estudios realizados</h2>
+
+    <div class="education__container bd-grid">
+        <div class="education__content">
+            <div>
+                <h3 class="education__year">2017-Actualmente</h3>
+                <span class="education__university">Universidad Central de Venezuela</span>
+
+            </div>
+            <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+            </div>
+            
+            <div>
+                <h3 class="education__race">Ingeniería mecánica</h3>
+                
+            </div>
+
+            <div>
+                <h3 class="education__year">2019-2020</h3>
+                <span class="education__university">Universidad Central de Venezuela</span>
+
+            </div>
+            <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+            </div>
+            
+            <div>
+                <h3 class="education__race">Bombero Universitario UCV</h3>
+                
+            </div>
+
+            <div>
+                <h3 class="education__year">2020</h3>
+                <span class="education__university">Freecodecamp</span>
+
+            </div>
+            <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+            </div>
+            
+            <div>
+                <h3 class="education__race">Responsive web design</h3>
+               
+            </div>
+
+            <div>
+                <h3 class="education__year">2020</h3>
+                <span class="education__university">Coursera</span>
+
+            </div>
+            <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+            </div>
+            
+            <div>
+                <h3 class="education__race">Html,CSS y Javascript</h3>
+               
+            </div>
+            <div>
+                <h3 class="education__year">2020</h3>
+                <span class="education__university">Coursera</span>
+
+            </div>
+            <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+            </div>
+            
+            <div>
+                <h3 class="education__race">Introducción a la programación con Python</h3>
+               
+            </div>
+            
+        </div>
+    </div>
+
+</section>
+<!--Project-->
+<section class="project section">
+    <div class="project__container bd-grid">
+        <div class="project__data">
+            <h2 class="section-title project__title">En busca de la excelencia</h2>
+            <p class="project__description">Soy una persona muy optimista y trabajadora. Que, además, tomara tu proyecto como suyo propio y le dará la mayor atención y calidad posible.
+                Siempre he pensado que, en la vida, las cosas se hacen bien o no se hacen.
+            </p>
+                <a href="#contact" class="button button__light">Contáctame</a>
+        </div>
+
+        <img src="project.svg" alt="" class="project__img">
+    </div>
+    
+</section>
+
+<!--Works-->
+<section class="works section" id="works">
+    <span class="section-subtitle">Portafolio</span>
+    <h2 class="section-title">Mis proyectos</h2>
+
+    <div class="works__container bd-grid">
+        <div class="works__img">
+            <img src="Pag3.png" alt="">
+            <div class="works__data">
+                <a href="https://www.codepen.io/barbara24/full/yLVXLqj" class="works__link"><i class="bx bx-link-alt"></i></a>
+                <span class="works__title">Trabajo 1</span>
+            </div>
+        </div>
+
+        <div class="works__img">
+            <img src="Pag1.png" alt="">
+            <div class="works__data">
+                <a href="https://codepen.io/barbara24/full/vYyJvWK" class="works__link"><i class="bx bx-link-alt"></i></a>
+                <span class="works__title">Trabajo 2</span>
+            </div>
+        </div>
+
+        <div class="works__img">
+            <img src="Pag2.png" alt="">
+            <div class="works__data">
+                <a href="#" class="works__link"><i class="bx bx-link-alt"></i></a>
+                <span class="works__title">Trabajo 3</span>
+            </div>
+        </div>
+
+        <div class="works__img">
+            <img src="Pag4.png" alt="">
+            <div class="works__data">
+                <a href="https://codepen.io/barbara24/full/XWpNaBQ" class="works__link"><i class="bx bx-link-alt"></i></a>
+                <span class="works__title">Trabajo 4</span>
+            </div>
+        </div>
+
+        <div class="works__img">
+            <img src="Pag5.png" alt="">
+            <div class="works__data">
+                <a href="https://codepen.io/barbara24/full/KKaNvBB" class="works__link"><i class="bx bx-link-alt"></i></a>
+                <span class="works__title">Trabajo 5</span>
+            </div>
+        </div>
+
+        <div class="works__img">
+            <img src="Pag6.png" alt="">
+            <div class="works__data">
+                <a href="https://codepen.io/barbara24/full/MWJbvdx" class="works__link"><i class="bx bx-link-alt"></i></a>
+                <span class="works__title">Trabajo 6</span>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+<!---Contact--->
+<section class="contact section" id="contact">
+    <span class="section-subtitle">Contacto</span>
+    <h2 class="section-title">¡Invítame a tu Proyecto!</h2>
+
+    <div class="contact__container bd-grid">
+        <form action="" class="contact__form">
+            <div class="contact__inputs">
+                <input type="text" placeholder="Nombre" class="contact__input">
+                <input type="mail" placeholder="Email" class="contact__input">
+            </div>
+
+            <input type="text" placeholder="Proyecto" class="contact__input">
+
+            <textarea name="" id="" cols="0" rows="10" placeholder="Mensaje" class="contact__input"></textarea>
+
+            <input type="submit"  value="Enviar"class="button contact__button">
+        </form>
+
+        <div>
+            <img src="pixeltrue-plan-1.svg">
+        </div>
+
+    </div>
+</section>
+</main>
+   <!--Footer-->
+<footer class="footer section">
+    <div class="footer__container bd-grid">
+        <h1 class="footer__title">Bárbara Marcano</h1>
+        <p>Hecho con amor y dedicación.</p>
+        <br>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/barbara.marcano.73/" class="footer__link"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/barb.mrcno/" class="footer__link"><i class="bx bxl-instagram"></i></a>
+            <a href="https://github.com/Barbara-Marcano" class="footer__link"><i class="bx bxl-github"></i></a>
+        </div>
+    </div>
+</footer>
+
+   <!--Main js -->
+   <script src="main.js"></script>
+   <script src="bubles.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="loader.js"></script>
+</body>
+</html>
